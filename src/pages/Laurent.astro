@@ -1,6 +1,5 @@
 ---
 // Laurent.astro - Site de massage thérapeutique
-import "../styles/global.css"
 ---
 
 <!DOCTYPE html>
@@ -19,6 +18,7 @@ import "../styles/global.css"
     <meta property="og:url" content="https://laurent-massage.com">
     
     <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
     
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -81,10 +81,9 @@ import "../styles/global.css"
     <!-- Navigation -->
     <nav class="fixed top-0 w-full bg-[#FEFCF8]/95 backdrop-blur-sm z-50 border-b border-[#F0EDE5]">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between items-center h-25">
+            <div class="flex justify-between items-center h-16">
                 <div class="flex-shrink-0">
-                    <!-- <h2 class="text-2xl font-serif font-bold text-gradient">Laurent</h2> -->
-                <img src="/logo_transparent.png" alt="Logo Laurent" class="h-20 md:h-30">
+                    <h2 class="text-2xl font-serif font-bold text-gradient">Laurent</h2>
                 </div>
                 <div class="hidden md:block">
                     <div class="ml-10 flex items-baseline space-x-8">
@@ -113,15 +112,13 @@ import "../styles/global.css"
         </div>
         <div class="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
             <div class="fade-in">
-                <h1 class="mt-30 text-5xl md:text-7xl font-serif font-bold text-[#8B4513] mb-6 leading-tight">
+                <h1 class="text-5xl md:text-7xl font-serif font-bold text-[#8B4513] mb-6 leading-tight">
                     Retrouvez l'Harmonie<br>
                     <span class="text-[#D4AF37]">de Votre Corps</span>
                 </h1>
-                <!-- <img src="/logo_transparent.png" alt="Logo Laurent" class=" rounded-full h-50 border-2 overflow-hidden"> -->
                 <p class="text-xl md:text-2xl text-[#8B4513]/80 mb-8 font-light leading-relaxed">
                     Avec Laurent, Maître de l'Art du Toucher Thérapeutique
                 </p>
-
                 <p class="text-lg text-[#8B4513]/70 mb-12 max-w-3xl mx-auto leading-relaxed">
                     Imaginez-vous glissant doucement vers un état de paix profonde, où chaque tension se dissout sous des mains expertes qui connaissent le langage secret de votre corps. Depuis 33 années, Laurent guide ses clients vers cette reconnexion précieuse avec leur essence corporelle.
                 </p>
